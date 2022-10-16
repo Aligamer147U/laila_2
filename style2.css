@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500;600;700&family=Lobster&display=swap');
+
+*{
+    font-family: 'Lobster', cursive;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgb(104, 98, 19);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px ;
+    background: url(photos/paga.jpg);
+}
+
+
+.g1{
+    color: black;
+    font-size: 2.5em;
+    text-decoration: none;
+}
+
+.g2{
+    color: black;
+    padding-left: 35px;
+    font-size: 2em;
+    text-decoration: none;
+}
+.g3{
+    color: black;
+    padding-right: 0.1em;
+    font-size: 2em;
+    text-decoration: none;
+
+
+}
+.q1{
+    padding: 100px 90px;
+    width: 100%;
+    min-height: 100vh;
+    background: url(photos/ana.jpg) no-repeat;
+}
+
+.t1 a:hover{
+    color: aliceblue;
+}
+.t1 a{
+    padding-left: 35px;
+}
+.q2{
+    padding: 100px 90px;
+    width: 100%;
+    min-height: 100vh;
+    background: url(photos/hayhat.jpg);
+
+
+}
